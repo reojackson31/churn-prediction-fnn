@@ -20,11 +20,11 @@ I have experimented with a total of 60 different configurations, using the combi
 
 Each of the 60 experiments was trained on a GPU use its computational power and speed of training. The models were trained using the Binary Cross-Entropy (BCE) loss function, which is appropriate for the binary nature of the churn prediction task. Stochastic Gradient Descent (SGD) was employed as the optimizer for its robustness and effectiveness in handling noisy gradients. All models were subjected to training for 100 epochs to ensure that each configuration had sufficient time to converge or exhibit its behavior in terms of learning. During the training process, key metrics such as training loss, validation loss, and validation accuracy were recorded for each epoch, which allowed to track the models’ performance and stability over each epoch. 
 
-
+![Training & Validation loss over epochs](https://github.com/reojackson31/churn-prediction-fnn/assets/148725712/e7e9d72b-c5b0-4641-80cd-d5bedd0dc0a1)
 
 This plot was created to monitor the training and validation loss over 100 epochs for the first model experiment. We can see that the training loss decreases steadily, indicating that the model is learning from the data. The validation loss initially decreases at the same rate, and then plateaus and does not show much improvement after about 50 epochs.
 
-
+![Validation set accuracy over epochs](https://github.com/reojackson31/churn-prediction-fnn/assets/148725712/18883078-38a0-4379-b431-70102a0420de)
 
 This plot shows the model accuracy on the validation set over 100 epochs for the first model experiment. We can see that there is an initial rapid increase in accuracy during the initial epochs, after which the curve begins to plateau, fluctuating around 85%. This suggests that the model is learning effectively and reaches a stable accuracy.
 
